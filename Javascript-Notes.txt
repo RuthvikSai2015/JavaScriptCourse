@@ -1,0 +1,546 @@
+     
+	 what is JavaScript? why ? Benefits 
+	 
+	 
+	 
+	 Javascript is  a high level and interpreted Programming Language 
+	 
+	 It is mainly developed as Network Centric Application
+	 
+	 Integrated with HTML (Hyper text mark up language)
+	 
+	 Why to Learn Javascript?
+	 
+	  Successful Web Programmer -> master Javascript 
+	  
+	 Advantages of Using JavaScript 
+	 
+	 -> Most Popular Programming Language
+	 
+	 Javascript Frameworks are :
+	 
+	 Angular
+	 
+	 React
+	 
+	 JQuery
+	 
+	 Vue Js
+	 
+	 Node Js,ext js
+	 
+	 
+	 ========================================================================================================
+	 
+	 HIGH LEVEL and INTERPRETED 
+	 
+	 High Level Language is written in Simple english Language statement where the user can understand 
+	 
+	 Interpreted Language is ready to run as soon you are done typing 
+	 
+	 
+	 JavaScript was originally developed By Brendan Eich 
+	 
+	 Developed by Netscape Communications Corporation
+	 
+	 Mozilla foundation, ECMA International
+	 
+	 
+====================================================================================================================================================
+
+    what is ECMA ?
+	
+	European Computer Manufacturer Assocation 
+	
+	ECMA rules followed by Javascript . ECMA Script
+	
+================================================================================================================================	
+
+    The Advanced Frameworkd or the 
+	
+	 ES1, ... ES6 it is also known as Type script 
+	 
+	 
+	 
+========================================================================================================================
+
+  Read thw Articles Developed BY ECMA . in update 
+  
+  Hands on Practical Sessions
+  
+ =============================================================================================================
+ 
+  Do a Research on the concepts which we read 
+   
+=============================================================================================================
+
+ ===================== Microsoft Visual Code =================================================================
+  
+  -------------HTML------------------
+  
+  HTML tag
+  Head Tag
+  Script 
+  Body
+  Closing tags
+  
+  
+  
+==============================================================================
+
+  How JavaScript was Created?
+  
+  90's was the era of internet and browsers
+  
+  in 1992 a web browser called mosiac
+  1993 by NSAC(
+
+  in 1995's Netscape Communications
+
+  NSAC and Netscape together developed and released browser called Mozilla(Mosiac and Godzilla)
+
+  Static Web Pages
+
+  to introduce dynamic web pages with more animations and interactions
+
+  HTML alone was not able to do the job . 
+
+  Scripting neeeded to do the job . Mocha Script renamed as Livescript and finally Javascript 
+
+  Java is completely back end language and javascript is purely from front-end language
+
+  Javascript was associated with netscape navigator in december 1995 . 
+
+  this is not related to java in way or any means
+
+  ECMA  is a standard organization for communication.
+  
+  Javascript was bounded by this Specification . 
+  
+  ===================================================================================
+    How Javascript Works?
+	
+	how javascript runs?
+	
+	what is javascript engine? 
+	
+	CTRL+U to view code 
+	
+	list of browser javascript engines 
+	
+	https://en.wikipedia.org/wiki/List_of_ECMAScript_engines
+	
+	https://codepumpkin.com/ecmascript-javascript-engines-ecma-262-etc/
+	
+===================Options to write Javascript code=================
+
+   -> Online Editors
+   -> Offline Editors
+   -> IDE(Integrated Development Environment) 
+	
+	
+	https://code.visualstudio.com/nodejs
+	
+	=========================================================
+	
+	Basic Fundamentals of Javascript 
+	
+	1) Comments & Variables 
+	
+	Comments 
+	
+	-> Provide information about code 
+	-> can be used in general to provide information or suggestions
+	
+	-> makes easy to understand the code 
+	-> can also be used to comment out the code sections
+	
+	for ex;
+	
+	console.log("Welcome to session");
+	
+	-> Comments are ignored by JS Engine 
+	
+	Variables 
+	
+	-> Used to store data
+	
+	-> can be loaded as container for storing values
+	
+	-> Must Contain only letters,digit or $ and _ symbol
+	
+	GuideLines
+	
+	-> Must begin with letter or _ (underscore)
+	-> It should not start with a Number(digit)
+	-> It should not use any keywords like let,else ;
+	-> Variables are Case sensitive
+	-> Camel Case 
+	
+	==========================================================================
+	
+	Operators
+	
+	Interesting topic
+	
+	What is Operator?
+	
+	An Operator is a symbol that represents an action or process
+	
+	for ex: let sum = 10+20 
+	
+	--------Diff types of Operators-------------
+	-> Arithmetic Operator
+	-> Assignment Operator
+	-> Comparison Operator
+	-> Logical Operator
+	-> Type Operator
+	-> Bitwise Operator
+	
+	----------Arithmetic Operator--------------------
+	
+	 + Addition
+	 - Subtraction
+	 * Multiplication
+	 / Division
+	 % Modulus(Remainder of division)
+	 ** Exponential
+	 ++ Increment
+	 -- Decrement
+	 
+	 ----------------------Assignment Operators--------------------------------------------------------
+	  = assignment operators         x=y 
+	  
+	  += Add and Assign               x+=y   x=x+y  
+	  -= Sub and Assign               x-=y   x=x-y
+	  *= Mul and Assign               x*=y   x=x*y
+	  /= div and assign               x/=y   x=x/y;
+	  %- modulus and assign
+	  **= exponential and assign 
+	  
+	  -----------------Comparison/Relational Operators--------------------------------------------------------
+	  
+	  ==  returns true if content is same
+ 	  === returns true if data type and content is same 
+	  !=  returns true if content is same
+	  !== returns true if content and data type is same
+	   >,<,>=,<= returns true if condition  matches
+	   
+	 -----Ternary Operator----------------------------------------------------
+	 
+	 Ternary Operator is similar to if-then-else 
+	 
+	 takes 3 arguments  
+	 
+	 condition ? value if true: value if false
+	  
+	 for ex: x>y ? x:y
+	 
+--------------------Logical Operators ----------------------------------------
+	 
+	 logical operator is a symbol used to connect 2 or more expressions 
+	 
+	 && logical AND [returns true if both conditions are true]
+	 || logical OR  [returns true if any one of the condition is true]
+	 !  logical NOT  [returns true if condition is false and false when condition is true]
+	 
+	 Expressions evaluation through logical operators
+	 
+--------------------- Type Operator----------------------------------------------------
+
+    - typeof  [ returns the type of variable]
+	- instanceof [ Returns true if an object is instance of same object type ,boolean value ]
+	
+====================================================================================
+
+    console.log(typeof "Leela"); // String
+	console.log(typeof false); // boolean
+	console.log(typeof {name:'Peter',age:25}); //Array or Object
+	console.log(typeof 0); // Number
+	console.log(typeof null); //  null
+	console.log(typeof 67888.333); // Number
+	console.log(typeof NaN); // error
+	console.log(typeof function(){}); // function
+	console.log(typeof new Date()); // object
+	console.log(typeof myClass); // error
+
+================Bitwise Operators=================================
+
+  binary representation
+  32 bit Numbers 
+
+  & AND(bitwise AND)[sets each bit to 1 if both bits are 1]
+  | OR [sets each  bit to 1 if any one of the 2 bits is 1]
+  ^ XOR [sets each bit to 1 if only one of two bits is 1]
+  ~ NOT [inverts all the bits and works with single operand ]
+  >> right shift [shifts by bits by left and fills the empty places with 0]
+  << left shift 
+  
+   & 1 and 1 = 1
+     1 and 0 = 0
+	 0 and 1 = 0
+	 0 and 0 = 0
+  
+  Ex: Let A = 1 = 0001  |   0001    ^ 0001   3 0011
+          B = 2 = 0010      0010      0010   5 0101
+                  ----      ----      ----     ----
+                  0000      0011      0011     0110 	
+
+       ~5 = 00000101  =  
+            11111010 = signed integer 250 -6 (signed value of 250) 
+			
+	   ~6 = 00000110
+	        11111001 = 170 = -7 
+			
+	   ~7 = 00000111
+	        11111000
+			
+	https://www.rapidtables.com/convert/number/binary-to-decimal.html
+	
+    Ex : 5<<1
+	      0101 - 1010
+		  
+==============================================================================
+      Data Types 
+	  
+	  let a = 3;
+	  
+	  There are Classifications of Data Types
+	  
+	  1) Primitive Values
+	  2) Objects 
+	  
+	  
+	   Boolean,Number,String,BigInt,Symbol,Undefined , NaN , null
+	   
+	   Numbers -- 10,12.34,12.444,
+	   
+	   String -- '',"" , '10' ,'$'
+	   
+	   Boolean , null, NaN 
+	   
+====================Data Types========================
+
+   let , var and const 
+   
+    let and const came in ES6
+	var prior to ES6
+	
+	//let is block scoped var is functional scope 
+	
+===================================================================
+
+  Assignment1
+  
+  /*
+Mark and John are trying to compare their BMI (Body Mass Index), 
+which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+GOOD LUCK 😀
+*/
+	  
+------------------------Conditional Statements---------------------
+
+If Else Statement
+
+if statement
+if .. else statement
+if .. else if else if statement
+
+-----------------Switch Statements------------------
+
+let starRating='1';
+switch(6-3){
+    case 1:
+           console.log("Very Bad Rating");
+    case 2:
+           console.log("Bad Rating");
+    case 3:
+           console.log("Average Rating");
+           break;
+    case 4:
+          console.log("Good Rating");
+          break;
+    case 5:
+          console.log("Excellent Rating");
+    default:
+          console.log("Please enter a valid Integer between 1 & 5");
+}
+
+---------------------------------------------------------------------------
+
+Loops in Javascript
+     - to run same set of statements again and again for some definite number of times
+	 
+	 
+	 For 
+	 For/in
+	 For/of
+	 
+===============================================================================
+
+    Coding Assignment1 and Coding Assignment 2
+	
+------------------------------------------------------------------------
+    Error Handling in Javascript 
+	
+	try{
+	
+	}catch(err){
+	
+	}finally{
+	}
+	
+--------------------------------------------------------------------
+
+    Functions - basic building blocks of real time javascript
+	
+	javascript modes- unsecure mode
+	                    secure mode 
+						
+	strict mode is a special mode that we can activate in javascript 
+	easier to write a secure javascript code
+	
+	-> forbids  us to do certain things
+	-> creates visible errors
+	
+	use strict 
+	
+----------------------------------------------------------------------------------
+
+    Parameterised Functions
+	
+	last signature of function gets replaced
+	
+	function Expressions
+	Arrow Functions 
+	---------------------------------------------------------------------
+	
+	adv of Arrow functions
+	
+	1) lot easier and faster to use
+	2) eliminate curly braces
+	3) Return happens implicitly 
+	
+	---------------------------------------------------------------------
+	Functions calling other functions 
+	
+	---------------------------------------------------------------------
+	
+	Arrays in Javascript 
+	
+	-> storing list of items that belong to same data type
+	
+	 ex: const fruit = ["apple","orange","grapes"];
+	 
+	     const fruit1 = "apple" const fruit2 = "orange" const fruit3 = "grapes";
+		 
+		 const array_name [item1,item2 ........... item300];
+	
+	-> simple declaration , empty declaration
+	-> new Array()
+
+    we can always mutate array because array is not a primitive value
+	whereas primitive values are immutable
+	
+	length 
+--------------------------------------------------------------------------
+	
+	Basic Methods (Array Operations)
+	
+	-> Push method adds the element into array (end) returns length of modifief array
+	
+	-> unshift method adds elements into array(start) returns length of modified array
+	
+	remove elements - pop() -- end of array
+	                  shift() -- begin of array
+					  
+	indexOf () -- which returns the indexof element and -1 if its not present
+	includes -- strict equality it returns true if element is present or false
+	
+-------------------Objects ------------------------------------
+
+   Arrays -- store multiple related values
+   Objects -- { property: value }
+   
+   Diff btw Arrays and Objects
+   
+   -> Arrays are usually ordered data 
+   -> Objects unstructured data
+   
+   const johnArray = {  //Object Literal Syntax
+    firstName : 'John',
+    lastName : 'Schmed',
+    age : 2037-1991,
+    job: 'trainer',
+    friends: ['Michael','Steven','Peter'] 
+}
+
+objectName . (dot operator) property
+-------------------Dot vs Bracket Notation ----------------------
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+
+---------------Object Methods ----------------------
+
+  like arrays objects can hold different types of data
+  
+  -----------javascript DOM --------------------------
+  
+  HTML and CSS crash course 
+  
+  2 important attributes which we can use on all elements that is 
+  
+  classes and ids
+  
+  SEO is done it is better to have semantic elements in html
+  
+  CSS is used to style element and to create layout for our HTML file 
+  
+  CSS Box Model:
+  
+  Content : text,images etc
+  
+  padding : transparent area around the content inside of the box
+  
+  border : goes around the padding and content
+  
+  --------------------------------------------------------------------
+  
+  Guess My Number 
+  
+  DOM -- Document Object Model
+  
+  Dom allows us to use javascript to access elements and styles in order to manipulate them
+  
+  rule is that whatever is present in HTML Docuemnt is part of Dom
+  
+  Selecting and Manipulating Elements
+  
+  
+  
+  
+  
+  
+
+
+    
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+
+    
+  
+  
+	
